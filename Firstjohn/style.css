@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145))
+}
+.nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 243, 56);
+    overflow-x: hidden;
+    padding-top: 190px;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px 0px 10px 0px ;
+    transition: 0.1s;
+    font-size: 49px;
+    font-family: 'Texturina', serif;
+    color: black;
+    display: block;
+}
+.nav a:hover {
+    color: aliceblue;
+}
+.nav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 28px;
+    margin-left: 80px;
+    font-size: 80px;
+}
+.nav .openbtn{
+float: right;
+}
+.title h1{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 33px;
+    color: aqua;
+    font-family: 'Sansita Swashed', cursive;
+}
+.about-title span{
+    color: #feff89;
+}
+.about-title .sp1{
+    color: #ffcdab;
+}
+.about{
+    padding-top: 180px;
+}
+.content h1{
+ padding-left: 180px;
+ font-size: 44px;
+ font-weight: 100;
+ font-family: 'Cabin', sans-serif;
+}
+.content h2{
+    padding-left: 200px;
+    color: #ffffff;
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+.content p{
+    margin-left: 240px;
+    font-size: 28px;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 250px;
+    color: rgb(44, 44, 44)
+}
+.content-1{
+    width: 550px;
+    margin: 60px auto;
+    font-family: 'Yeon Sung', cursive;
+    list-style-type: none;
+}
+.content-1{
+    margin-bottom: 100px;
+}
+.content-1 h1{
+ color: white;
+  padding-left: 180px;
+  font-size: 84px;
+}
+.content-1 li{
+    margin: 20px auto;
+}
+.content-1 h3{
+    padding-bottom: 5px;
+    color: #4e4f50;
+    font-size: 34px;
+}
+.bar-s{
+    background: #353b43;
+    display: block;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #353b43;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(250, 252, 172);
+}
+.bar-s span{
+    height: 18px;
+    float: left;
+    background: #055db5;
+}
+.photography{
+    width: 90%;
+}
+.web-design{
+    width: 98%;
+}
+.photo{
+    width: 45%;
+}
+.skill{
+    list-style-type: none;
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 80px;
+}
+.partner{
+    font-size: 36px;
+    color: #3d3c3c;
+    font-family: 'Exo 2', sans-serif;
+}
+.project{
+    font-size: 36px;
+    color: #3d3c3c;
+    font-family: 'Exo 2', sans-serif;
+}
+.clients{
+    font-size: 36px;
+    font-family: 'Exo 2', sans-serif;
+    color: #3d3c3c;
+}
+.meeting{
+    font-size: 36px ;
+    font-family: 'Exo 2', sans-serif;
+    color: #3d3c3c;
+}
+.skill h2{
+    display: inline-block;
+}
+.download{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.btn{
+    padding: 5px 8px 5px 8px;
+   font-size: 24px;
+   border-radius: 3px;
+   border: 1px solid #3d3c3c;
+   color: #ffffff;
+   background-color: #3d3c3c;
+}
+.title-1 h3{
+    margin-left: 220px;
+    font-size: 44px;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 40px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+ul li{
+    list-style-type: none;
+}
+.cards{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.w-padd16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.card-1{
+    background: linear-gradient(to right, rgb(16, 141, 199), rgb(239, 142, 56));
+    display: inline-block; 
+    text-align: center;
+    padding-right: 130px;
+    padding-left: 130px;
+}
+.lft{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.pa-32{
+    padding: 32px 16px;
+}
+.card-head{
+    color: orange;
+}
+.t1{
+    font-size: 34px;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.w-font{
+    font-size: 28px;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(94, 94, 94);
+    border-bottom: 1px solid #4e4f50;
+}
+.w-font1{
+    font-size: 24px;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(94, 94, 94);
+    border-bottom: 1px solid #4e4f50;
+}
+.w-fonts{
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    margin-bottom: 30px ; 
+}
+.deco{
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+}
+.cards{
+    margin-bottom: 250px;
+}
+.head1 h1{
+ margin-left: 100px;
+ font-size: 44px;
+ font-family: 'Cabin', sans-serif;
+}
+.line{
+    font-size: 28px;
+    margin-left: 110px; 
+    margin-bottom: 80px;   
+}
+.photos1
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+.photos1 img{
+    margin-bottom: 40px;
+    box-shadow:  4px 14px 18px 4px rgba(190, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact{
+    height: 1000px;
+}
+.head2{
+    font-size: 34px;
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 180px;
+    border-bottom: 1px solid black;
+}
+.content3{
+    margin-top: 80px;
+   margin-left: 200px;
+}
+.ad{
+   font-size: 28px;   
+   padding-bottom: 10px;
+   font-family: 'JetBrains Mono', monospace;
+}
+.nom{
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.mail{
+    font-size: 28px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.para{
+    padding-top: 100px;
+    padding-left: 120px;
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.w-input{
+    padding: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 23px;
+}
+.w-margin{
+    display: block;
+    margin-left: 240px;
+    width: 40%;
+}
+.m-t{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.mm-t{
+    margin-bottom: 10px;
+}
+.w-btn{
+    margin-top: 20px;
+    margin-left: 240px;
+    padding: 15px;
+    font-size: 24px;
+}
+w-int{
+    float: right;
+}
